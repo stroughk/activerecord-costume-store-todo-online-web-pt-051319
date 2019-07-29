@@ -1,4 +1,4 @@
-class CreateCostumeStores < ActiveRecord::Migration[4.2]
+class CreateCostumeStore < ActiveRecord::Migration[4.2]
   def change
     create_table :costume_stores do |t|
       t.string :name
@@ -12,5 +12,4 @@ class CreateCostumeStores < ActiveRecord::Migration[4.2]
       t.timestamps null: false
     end
   end
-end
 end
